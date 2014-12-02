@@ -8,8 +8,8 @@ Script to export googlebot instances from zipped log files.
 The script supplied will only work if log files are zipped up, and only one zip file deep. Typically log files will come zipped from a client or webserver due to their large filesize. Ideally you will have:
 
 * All log files are zipped, only one file deep
-⋅⋅* i.e. `logfiles.zip` contains `logfil1e1`g `logfile2.log` `logfile3.log` etc
-⋅⋅* Or several zip files, i.e. `logfiles1.zip` contains `logfile1.log` and `logfiles2.zip` contains `logfile2.log` and `logfile3.log`
+ * i.e. `logfiles.zip` contains `logfile1.log` `logfile2.log` `logfile3.log` etc
+ * Or several zip files, i.e. `logfiles1.zip` contains `logfile1.log` and `logfiles2.zip` contains `logfile2.log` and `logfile3.log`
 * Zip files containing logs are in a single folder
 * Files have ".zip" filename, not .gzip or .rar or other (modify the script if using something other than zip)
 * Create an empty folder called "output" in the same folder
