@@ -11,12 +11,12 @@ The script supplied will only work if log files are zipped up, and only one zip 
  * i.e. `logfiles.zip` contains `logfile1.log` `logfile2.log` `logfile3.log` etc
  * Or several zip files, i.e. `logfiles1.zip` contains `logfile1.log` and `logfiles2.zip` contains `logfile2.log` and `logfile3.log`
 * Zip files containing logs are in a single folder
-* Files have ".zip" filename, not .gzip or .rar or other (modify the script if using something other than zip)
+* Files have `.zip` filename, not .gzip or .rar or other (modify the script if using something other than zip)
 * Create an empty folder called "output" in the same folder
 
 ## Writing and running the script
 
-First install PHP for Windows so that you can execute your PHP script. Then paste the following into your favourite text processor, and save as "loganalysis.php" in the same folder as your zipped log files:
+First install PHP for Windows so that you can execute your PHP script. Then paste the following into your favourite text processor, and save as `loganalysis.php` in the same folder as your zipped log files:
 
 The command line should give you a series of interface feedbacks indicating it is finding instances of Googlebot in your log files. Once it is complete, it will export the found log files into your "output" folder, which you should be able to open within Excel.
 
